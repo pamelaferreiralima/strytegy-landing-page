@@ -1,3 +1,9 @@
+/* 
+- documentar o código no CSS 
+- ajustar a main
+- ajustar o footer 
+- responsivo
+*/
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;800&display=swap');
 *{
     padding: 0;
@@ -6,15 +12,6 @@
     text-decoration: none;
     color: #000;
 }
- /* div{
-    border:5px solid red;
-} 
- figure{
-    border:1px solid red;
-}  
- section{
-    border: 2px solid blue;
-}  */
 header{
     box-shadow: 1px 5px 5px rgb(230,230,230) ; 
 }
@@ -321,3 +318,12 @@ header{
 .logo-footer-strytegy{
     width: 3rem;
 }
+/* div{
+    border:5px solid red;
+} 
+ figure{
+    border:1px solid red;
+}  
+ section{
+    border: 2px solid blue;
+}  */
