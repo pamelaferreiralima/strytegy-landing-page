@@ -314,3 +314,10 @@ header{
     margin: auto;
     background-image:linear-gradient(180deg, #5321C493, #22254B31)
 }
+.box-footer-social-media{
+    display: flex;
+    flex-direction: column;
+}
+.logo-footer-strytegy{
+    width: 3rem;
+}
