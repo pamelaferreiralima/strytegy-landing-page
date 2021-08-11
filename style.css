@@ -21,9 +21,11 @@ header{
     flex-direction: column;
     justify-content: space-evenly;
     height: 68vh;
+    margin-left: 2%;
 }
 .logo-img{
     width: 9vw;
+    margin-left: 1.6rem;
 }
 .container-header{
     display: flex;
@@ -44,7 +46,7 @@ header{
     height: 70px;
 }
 .unlock-title{
-    font-size:3.75vw;;
+    font-size: 3.75vw;
     color: #22254B;
 }
 .hyperconnect-subtitle{
@@ -89,10 +91,10 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height:45vw; 
+    height: 20vw;
 }
 .title-evolution{
-    font-size: 40px;
+    font-size: 3vw;
     color:rgba(34, 37, 75, 1);
 }
 .paragraph-evolution{
@@ -101,6 +103,7 @@ header{
     width: 55%;
     text-align: center;
     margin-top: 1.5rem;
+    margin-bottom: 2rem ;
 }
 .container-box-meetings{
     max-width: 1366px;
@@ -154,7 +157,7 @@ header{
 .paragraph-meetings{
     color:#22254B;
     font-size: 15px;
-    width: 8vw;
+    width: 9vw;
 }
 .paragraph-meetings-organizations{
     width: auto;
@@ -170,7 +173,7 @@ header{
    justify-content: space-between;
 }
 .img-gif{
-    width: 35vw;
+    width: 47vw;
 }
 .box-workshops{
     display: flex;
@@ -214,7 +217,8 @@ header{
 }
 .title-custom{
     color: #22254B;
-    font-size: 50px;
+    font-size: 3.8vw;
+    margin-top: 10%;
 }
 .paragraph-custom-space{
     letter-spacing: 1px;
@@ -233,6 +237,7 @@ header{
     color: #22254B;
     font-size: 16.2px;
     cursor: pointer;
+    margin-bottom: 8%;
 }
 .box-custom{
     display: flex;
@@ -408,6 +413,7 @@ b{
     font-size: 16.2px;
     cursor: pointer;
 }
+
 .container-footer{
     max-width: 1366px;
     margin: auto;
@@ -430,6 +436,7 @@ b{
 .box-footer-text h2{
     color: #22254B;
     font-weight: 500;
+    font-size: 3.5vw;;
 }
 .logo-footer-strytegy{
     width: 3rem;
