@@ -106,7 +106,7 @@ header{
     margin-bottom: 2rem ;
 }
 .container-box-meetings{
-    max-width: 1366px;
+    max-width: 1440px;
     margin: 0 auto;
     background-color: #22254B;
     height: 80vh;
@@ -169,11 +169,12 @@ header{
 }
 .box-img-gif{
    display: flex;
-   margin-left: 2rem;
+   position: relative;
+   left: 5%;
    justify-content: space-between;
 }
 .img-gif{
-    width: 45vw;
+    width: 40vw;
 }
 .box-workshops{
     display: flex;
@@ -209,7 +210,7 @@ header{
     margin: 5rem;
 }
 .img-custom{
-    width: 100%;
+    width: 30vw;
 }
 .box-custom{
     display: flex;
@@ -254,14 +255,15 @@ header{
 .container-strategic{
     background-color:  #22254B;
     margin: 0 auto;
-    max-width: 1366px;  
+    max-width: 1366px; 
 }
 .box-strategic{ 
-    height: 35vw;
+    height: 63vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding-bottom: 5%;
 }
 .title-strategic{
     font-size: 4.5vw;
@@ -439,7 +441,7 @@ b{
     font-size: 3.5vw;;
 }
 .logo-footer-strytegy{
-    width: 3rem;
+    width: 4vw;
 }
 .container-box-footer{
     margin-left: 10%;
@@ -450,26 +452,25 @@ b{
 .box-footer-social-media{
     display: flex;
     justify-content: space-evenly;
-    width: 60vw;
+    width: 70vw;
 }
 .box-footer-about{
     display: flex;
     flex-wrap: wrap;
     width: 30vw;
-    height: 9.5vw;
+    height: 40vh;
 }
-.box-footer-about img{
-    width: 2.5vw;
-}
+
 .box-footer-about p{
-    font-size:0.9vw;
+    font-size:0.75em;
     color: #22254B;
+    padding-top: 0.9em;
 }
 .box-footer-about b{
-    font-size: 1.2vw;
+    font-size: 1em;
 }
 .box-footer-about a{
-    font-size: 1vw;
+    font-size: 1em;
     margin-top: 8%;
     margin-left: 3%;
 }
@@ -477,10 +478,10 @@ b{
     line-height: 1.5;
 }
 .box-footer-stories a{
-    font-size: 1vw;
+    font-size:0.75em;
 }
 .box-footer-stories b{
-    font-size: 1.2vw;
+    font-size: 0.9em;
     color: #22254B;
 }
 .box-footer-social{
@@ -489,12 +490,12 @@ b{
     line-height: 1.6;
 }
 .box-footer-social b{
-    font-size: 1.2vw;
+    font-size: 0.9em;
     color: #22254B;
     line-height: 1.9;
 }
 .box-footer-social a{
-    font-size: 1vw;
+    font-size:0.75em;
 }
 .box-footer-helpful{
     display: flex;
@@ -502,11 +503,11 @@ b{
     line-height: 1.6;
 } 
 .box-footer-helpful a{
-    font-size: 1vw;
+    font-size:0.75em;
 }
 .box-footer-helpful b{
-    font-size: 1.2vw;
+    font-size: 0.9em;
     color: #22254B;
-    line-height: 1.9;
+    line-height: 2.2;
 }
 
